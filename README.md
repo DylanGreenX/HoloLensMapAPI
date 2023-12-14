@@ -120,5 +120,5 @@ Note: Ensure the Photon Unity Networking (PUN) package is imported into your pro
 
 
 # UML Diagram
-<img width="995" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/4f6036c0-d268-4e92-b3a0-ed49b500f686">
+<img width="985" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/113a7d3e-ad6d-436d-b90d-501c5e536fb9">
 
