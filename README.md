@@ -18,25 +18,25 @@ Scripts:
 
 Popup_Menu:
 
-<img width="312" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/22fd3e0e-225a-47ff-a434-9ea5039ec7d3">
+<img width="156" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/22fd3e0e-225a-47ff-a434-9ea5039ec7d3">
 
 This menu style is used multiple times throughout the project. It creates a simple 3-button menu that can be changed for user purposes.
 
 PLT_Menu:
 
-<img width="108" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/4e1f9e13-6f94-46be-b79b-c3623af2f699">
+<img width="54" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/4e1f9e13-6f94-46be-b79b-c3623af2f699">
 
 This is an extension to the Popup_menu prefab. While everything can be replicated with the Popup_Menu prefab, this will help speed up project development if the goal is to replicate our Map API.
 
 Friendly_Sticker:
 
-<img width="124" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/46875b26-20aa-450f-99e1-797de542d4e7">
+<img width="62" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/46875b26-20aa-450f-99e1-797de542d4e7">
 
 Friendly_Sticker creates a sticker object with a Photon Unity Networking component (Necessary for shared experiences) and the CopyObjectonClick script, which allows it to be duplicated.
 
 Enemy_Sticker:
 
-<img width="140" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/5d64172e-d0ba-4e9a-86bc-3f154da85a89">
+<img width="70" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/5d64172e-d0ba-4e9a-86bc-3f154da85a89">
 
 Enemy_Sticker creates a sticker object with a Photon Unity Networking component (Necessary for shared experiences) and the CopyObjectonClick script, which allows it to be duplicated.
 
@@ -60,7 +60,7 @@ Note: Ensure the Photon Unity Networking (PUN) package is imported into your pro
 - **copiedObject**: The reference to the instantiated copied object.
 
 ### Public Methods
-**CopyObject()':** Creates a copy of the specified object using Photon Networking and applies custom transformations. The copied object is added to the createdObjects list in the DeleteObjectTracker.
+**`CopyObject()`:** Creates a copy of the specified object using Photon Networking and applies custom transformations. The copied object is added to the createdObjects list in the DeleteObjectTracker.
 
 ## DeleteObjectTracker
 
@@ -74,8 +74,8 @@ Note: Ensure the Photon Unity Networking (PUN) package is imported into your pro
 - **createdObjects**: A list of GameObjects created during runtime.
 
 ### Public Methods
-**DeleteMostRecentObject()':** Deletes the most recently created object from the createdObjects list.
-**DeleteAllClones()':** Deletes all objects in the createdObjects list.
+**`DeleteMostRecentObject()`:** Deletes the most recently created object from the createdObjects list.
+**`DeleteAllClones()`:** Deletes all objects in the createdObjects list.
 
 ## ResetSize 
 
@@ -89,7 +89,7 @@ Note: Ensure the Photon Unity Networking (PUN) package is imported into your pro
 - **initialScale**: Stores the initial scale of the GameObject.
 
 ### Public Methods
-- **'ResetToInitialTransform()':** Resets the scale of the GameObject to its initial size.
+- **`ResetToInitialTransform()`:** Resets the scale of the GameObject to its initial size.
   
 ## Transform Active State
 
@@ -102,7 +102,7 @@ Note: Ensure the Photon Unity Networking (PUN) package is imported into your pro
 - **objectToToggle**: The GameObject whose active state will be toggled.
 
 ### Public Methods 
-- **'ToggleObjectActiveState()':** Toggles the active state of the objectToToggle. If it is currently active, it will be deactivated, and vice versa.
+- **`ToggleObjectActiveState()`:** Toggles the active state of the objectToToggle. If it is currently active, it will be deactivated, and vice versa.
   
 ## Transform Synchronizer
 
@@ -120,5 +120,5 @@ Note: Ensure the Photon Unity Networking (PUN) package is imported into your pro
 
 
 # UML Diagram
+<img width="995" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/4f6036c0-d268-4e92-b3a0-ed49b500f686">
 
-<img width="1382" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/732b209d-b7c6-42d4-a477-50f01eb0b746">
