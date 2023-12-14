@@ -17,22 +17,26 @@ Scripts:
 #Prefabs
 
 Popup_Menu:
-<img width="78" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/22fd3e0e-225a-47ff-a434-9ea5039ec7d3">
+
+<img width="312" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/22fd3e0e-225a-47ff-a434-9ea5039ec7d3">
 
 This menu style is used multiple times throughout the project. It creates a simple 3-button menu that can be changed for user purposes.
 
 PLT_Menu:
-<img width="27" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/4e1f9e13-6f94-46be-b79b-c3623af2f699">
+
+<img width="108" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/4e1f9e13-6f94-46be-b79b-c3623af2f699">
 
 This is an extension to the Popup_menu prefab. While everything can be replicated with the Popup_Menu prefab, this will help speed up project development if the goal is to replicate our Map API.
 
 Friendly_Sticker:
-<img width="31" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/46875b26-20aa-450f-99e1-797de542d4e7">
+
+<img width="124" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/46875b26-20aa-450f-99e1-797de542d4e7">
 
 Friendly_Sticker creates a sticker object with a Photon Unity Networking component (Necessary for shared experiences) and the CopyObjectonClick script, which allows it to be duplicated.
 
 Enemy_Sticker:
-<img width="35" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/5d64172e-d0ba-4e9a-86bc-3f154da85a89">
+
+<img width="140" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/5d64172e-d0ba-4e9a-86bc-3f154da85a89">
 
 Enemy_Sticker creates a sticker object with a Photon Unity Networking component (Necessary for shared experiences) and the CopyObjectonClick script, which allows it to be duplicated.
 
