@@ -89,6 +89,7 @@ Note: Ensure the Photon Unity Networking (PUN) package is imported into your pro
 - **initialScale**: Stores the initial scale of the GameObject.
 
 ### Public Methods
+- **`Start()`:** Saves the initial transform values to initialScale.
 - **`ResetToInitialTransform()`:** Resets the scale of the GameObject to its initial size.
   
 ## Transform Active State
@@ -120,5 +121,5 @@ Note: Ensure the Photon Unity Networking (PUN) package is imported into your pro
 
 
 # UML Diagram
-<img width="985" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/113a7d3e-ad6d-436d-b90d-501c5e536fb9">
+<img width="1044" alt="image" src="https://github.com/DylanGreenX/HoloLensMapAPI/assets/97126306/3b431f1c-e2a7-450c-a5b4-cef0030b4720">
 
