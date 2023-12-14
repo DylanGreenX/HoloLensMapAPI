@@ -5,7 +5,7 @@ Simple Shareable Map API
 
 # Script Details 
 
-<u>## ResetSize Script Documentation</u>
+## <u> ResetSize Script Documentation</u>
 
 ### Usage
 
@@ -22,7 +22,7 @@ Simple Shareable Map API
 
 - **'ResetToInitialTransform()':** Resets the scale of the GameObject to its initial size.
   
-<u> ## Transform Active State <\u>
+##  <u> Transform Active State <\u>
 
 ## Usage
 1. Attach the `ToggleActiveState` script to a GameObject in your scene.
@@ -37,7 +37,7 @@ Simple Shareable Map API
 
 - **'ToggleObjectActiveState()':** Toggles the active state of the objectToToggle. If it is currently active, it will be deactivated, and vice versa.
   
-<u> ## Transform Synchronizer <\u>
+## <u>  Transform Synchronizer <\u>
 
 ### Usage
 1. Attach the `TransformSynchronizer` script to a GameObject in your scene.
